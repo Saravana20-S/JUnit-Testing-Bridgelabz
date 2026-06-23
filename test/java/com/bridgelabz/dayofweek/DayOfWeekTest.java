@@ -35,4 +35,9 @@ public class DayOfWeekTest {
         assertEquals(4,
                 DayOfWeek.dayOfWeek(2, 29, 2024));
     }
+
+    @Test
+    void testWednesday(){
+        assertEquals(2,DayOfWeek.dayOfWeek(6,24,2026));
+    }
 }
